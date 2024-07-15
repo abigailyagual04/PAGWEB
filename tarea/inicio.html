@@ -4,10 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Impacto de las Tecnologías Web</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="imagenes/faviconinicio.jpeg" type="image/x-icon">
+
 </head>
 <body>
     <header>
-        <h1>Impacto de las Tecnologías Web en la Sociedad y los Negocios</h1>
+        <video autoplay muted loop id="video-background">
+            <source src="videofondo/videomp4fondo.mp4" type="video/mp4">
+        </video>
+
+        <figure><img src="imagenes/logotec.png" alt="logotec" width="190px" class="logotec"></figure> 
+            <h1>Impactos tecnológicos en la actualidad</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
@@ -17,22 +25,51 @@
             </ul>
         </nav>
     </header>
-    <section>
+    <section class="bienvenida">
         <article>
-            <h2>Bienvenidos</h2>
-            <p>Explore el impacto de las tecnologías web en diversos aspectos de nuestra vida diaria y en el mundo de los negocios.</p>
-            <img src="imagenes/inicio.jpg" alt="Inicio" width="700px">
+            <video width="100%" height="auto" controls autoplay loop>
+                <source src="videobien/bienvenida.mp4" type="video/mp4">
+            </video>
+            <div>
+            <p>Hola y gracias por visitar mi página web. Aquí encontrarás un espacio dedicado a explorar el impacto de las tecnologías web en la sociedad y los negocios. Mi objetivo es compartir conocimientos, ideas y recursos que te ayuden a navegar en este mundo digital en constante evolución. Espero que disfrutes tu estancia y encuentres información valiosa.
+            Explora y disfruta del impacto de las tecnologías web en diversos aspectos de nuestra vida diaria y en el mundo de los negocios.</p>
+            <p>No dudes en ponerte en contacto si tienes preguntas o comentarios.</p>
+        </div>
         </article>
-        <aside>
-            <h3>Artículos Destacados</h3>
+        <aside class="impactos-tecnologicos">
+            <h3>Impactos tecnológicos</h3>
             <ul>
-                <li><a href="sociedad.html">Impacto en la Sociedad</a></li>
-                <li><a href="negocios.html">Impacto en los Negocios</a></li>
+                <li>
+                    <a href="sociedad.html">Impacto en la Sociedad</a>
+                    <p>La sociedad influye profundamente en el desarrollo y adopción de tecnologías.</p>
+                    <img src="imagenes/tcsociedad.png" alt="sociedad" class="imagen-secundaria">
+                </li>
+                <li>
+                    <a href="negocios.html">Impacto en los Negocios</a>
+                    <p>El impacto de las tecnologías en los negocios es profundo y transformador.</p>
+                    <img src="imagenes/negociotc.jpeg" alt="negociotc" class="imagen-secundaria">
+                </li>
             </ul>
         </aside>
     </section>
+        <section>
+        <aside>
+        <h4>¿Qué es la tecnología?</h4>
+        <p>La tecnología se refiere al conjunto de conocimientos técnicos, científicamente ordenados, que permiten diseñar y crear bienes y servicios que facilitan la adaptación al medio ambiente y satisfacen las necesidades de las personas. En términos más simples, la tecnología abarca desde herramientas simples, como un martillo o una rueda, hasta sistemas complejos como los computadores o los satélites espaciales.
+
+            La tecnología no solo comprende los dispositivos físicos, sino también los procesos y técnicas utilizados para desarrollar esos dispositivos o para lograr determinados fines. Es un campo amplio que evoluciona constantemente y que tiene un impacto significativo en todos los aspectos de la sociedad moderna, desde la comunicación hasta la medicina, la agricultura, la industria y más.</p>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/T3T0pdl6gw4?si=gNlI8aod6wJhXFgy" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" 
+                    allowfullscreen>
+                </iframe>
+        </aside>    
+    </section>
     <footer>
-        <b><p>&copy; @abigailyagual2024.</p></b>
+        <p>&copy; 2024 Abigail Yagual. Todos los derechos reservados.</p>
     </footer>
 </body>
 </html>

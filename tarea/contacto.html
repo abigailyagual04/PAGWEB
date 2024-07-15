@@ -5,8 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
 </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impacto de las Tecnologías Web</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="imagenes/faviconcontacto.jpeg" type="image/x-icon">
+</head>
+
 <body>
+
     <header>
+        <video autoplay muted loop id="video-background">
+            <source src="videofondo/videomp4fondo.mp4" type="video/mp4">
+            Tu navegador no soporta videos.
+        </video>
+
         <h1>Impacto de las Tecnologías Web en la Sociedad y los Negocios</h1>
         <nav>
             <ul>
@@ -19,11 +33,12 @@
     </header>
     <section>
         <article>
-            <h2>Contacto</h2>
-            <img src="imagenes/conc.png" alt="contacto" width="100px">
-            <p>Si tienes alguna consulta o comentario, por favor completa el siguiente formulario:</p>
+        
+            <h2>Contáctanos</h2>
+            <img src="imagenes/contacto.png" alt="contacto" width="300px">
+            <p>Si tienes alguna consulta o comentario, por favor completa el siguiente formulario para contáctarnos:</p>
             <form action="send_form.php" method="post">
-                <label for="nombre">Nombre:</label>
+                <label for="nombre">Nombre y Apellido:</label>
                 <input type="text" id="nombre" name="nombre" required>
                 
                 <label for="email">Email:</label>
@@ -34,10 +49,11 @@
                 
                 <button type="submit">Enviar</button>
             </form>
-        </article>
     </section>
+</article>
+
     <footer>
-        <b><p>&copy; @abigailyagual2024.</p></b>
+        <p>&copy; 2024 Abigail Yagual. Todos los derechos reservados. </p>
     </footer>
 </body>
 </html>
